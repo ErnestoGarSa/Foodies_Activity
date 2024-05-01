@@ -1,10 +1,9 @@
-import Link from "next/link";
 import React from "react";
 
-const page = () => {
+const page = ({ params }) => {
   return (
     <main>
-      <h1>Meals page</h1>
+      <h1>Meal details</h1>
     </main>
   );
 };

@@ -1,6 +1,6 @@
 import React from "react";
 
-const page = ({ params }) => {
+const page = () => {
   return (
     <main>
       <h1>Meals shared page</h1>
