@@ -1,5 +1,6 @@
 import MealItem from "./MealItem";
 import classes from "./MealsGrid.module.css";
+
 const MealsGrid = ({ meals }) => {
   return (
     <ul className={classes.meals}>
